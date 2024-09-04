@@ -5,7 +5,6 @@ wp-content/index.php
 wp-content/languages
 wp-content/plugins/index.php
 wp-content/themes/index.php
-wp-content/plugins/
 
 # Ignore WordPress configuration file
 wp-config.php
@@ -78,6 +77,14 @@ wp-content/plugins/wpcf7-redirect
 wp-content/plugins/wpmudev-updates
 wp-content/plugins/recent-posts-widget-with-thumbnails
 wp-content/plugins/product-open-pricing-name-your-price-for-woocommerce
+
+# plugins i want to keep
+wp-content/plugins/woocommerce/
+wp-content/plugins/the-events-calendar/
+wp-content/plugins/events-calendar-pro/
+wp-content/plugins/event-tickets-plus/
+wp-content/plugins/event-tickets/
+
 
 # Ignore log files and databases
 *.log
