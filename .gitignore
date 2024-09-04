@@ -86,20 +86,25 @@ wp-content/plugins/event-tickets-plus/
 wp-content/plugins/event-tickets/
 
 
-# Unignore the event-tickets-plus directory
+# Unignore the plugins directory
 !wp-content/plugins/event-tickets-plus/
+!wp-content/plugins/events-calendar-pro/
 
-# Ignore everything inside event-tickets-plus
+# Ignore everything inside folder
 wp-content/plugins/event-tickets-plus/*
+wp-content/plugins/events-calendar-pro/*
 
 # Unignore the src directory inside event-tickets-plus
 !wp-content/plugins/event-tickets-plus/src/
+!wp-content/plugins/events-calendar-pro/src/
 
 # Ignore everything inside src
 wp-content/plugins/event-tickets-plus/src/*
+wp-content/plugins/events-calendar-pro/src/*
 
 # Unignore the views directory inside src
 !wp-content/plugins/event-tickets-plus/src/views/
+!wp-content/plugins/events-calendar-pro/src/views/
 
 # Ignore log files and databases
 *.log
