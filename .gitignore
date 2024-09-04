@@ -5,9 +5,34 @@ wp-content/index.php
 wp-content/languages
 wp-content/plugins/index.php
 wp-content/themes/index.php
+wp-content/plugins/
 
 # Ignore WordPress configuration file
 wp-config.php
+
+# Ignore files
+fw-flush-cache.php
+fw-status-check.php
+license.txt
+local-xdebuginfo.php
+readme.html
+wp-activate.php
+wp-blog-header.php
+wp-comments-post.php
+wp-config-sample.php
+wp-cron.php
+wp-links-opml.php
+wp-load.php
+wp-login.php
+wp-mail.php
+wp-settings.php
+wp-signup.php
+wp-trackback.php
+xmlrpc.php
+index.php
+wp-content/.defender-security-quarantine
+wp-content/wp-defender-secrets.php
+db-error.php
 
 # Ignore uploads directory
 wp-content/uploads/
@@ -19,6 +44,9 @@ wp-content/themes/twenty*/
 wp-content/advanced-cache.php
 wp-content/backup-db/
 wp-content/backups/
+wp-content/logs/
+wp-content/upgrade-temp-backup
+wp-content/db-error.log
 wp-content/blogs.dir/
 wp-content/cache/
 wp-content/upgrade/
@@ -38,7 +66,7 @@ wp-content/plugins/recent-posts-widgeet-with-thumbnails
 wp-content/plugins/revslider
 wp-content/plugins/revslider-lottie-addon
 wp-content/plugins/revslider-sharing-addon
-wp-content/plugins/revslder-typeform-addon
+wp-content/plugins/revslider-typewriter-addon
 wp-content/plugins/woo-checkout-field-editor-pro
 wp-content/plugins/woocommerce-gateway-stripe
 wp-content/plugins/woocommerce-google-analytics-integration
@@ -48,6 +76,8 @@ wp-content/plugins/wp-defender
 wp-content/plugins/wp-mail-smtp-pro
 wp-content/plugins/wpcf7-redirect
 wp-content/plugins/wpmudev-updates
+wp-content/plugins/recent-posts-widget-with-thumbnails
+wp-content/plugins/product-open-pricing-name-your-price-for-woocommerce
 
 # Ignore log files and databases
 *.log
