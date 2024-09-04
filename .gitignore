@@ -86,6 +86,21 @@ wp-content/plugins/event-tickets-plus/
 wp-content/plugins/event-tickets/
 
 
+# Unignore the event-tickets-plus directory
+!wp-content/plugins/event-tickets-plus/
+
+# Ignore everything inside event-tickets-plus
+wp-content/plugins/event-tickets-plus/*
+
+# Unignore the src directory inside event-tickets-plus
+!wp-content/plugins/event-tickets-plus/src/
+
+# Ignore everything inside src
+wp-content/plugins/event-tickets-plus/src/*
+
+# Unignore the views directory inside src
+!wp-content/plugins/event-tickets-plus/src/views/
+
 # Ignore log files and databases
 *.log
 *.sql
